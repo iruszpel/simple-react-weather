@@ -5,5 +5,10 @@
     }],
     "stage-0",
     "react"
-  ]
+  ],
+  "plugins": [
+    ["transform-runtime", {
+        "regenerator": true
+    }]
+]
 }
