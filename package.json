@@ -12,7 +12,10 @@
   ],
   "author": "lopogo59",
   "license": "GNU GPLv3",
-  "repository": "lopogo59/simple-react-weather",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lopogo59/simple-react-weather.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
