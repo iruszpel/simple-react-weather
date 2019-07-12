@@ -40,7 +40,7 @@ class SimpleReactWeather extends Component {
   }
   callOWM = () => {
     if (this.props.lat && this.props.lon) {
-        callApi(`http://api.openweathermap.org/data/2.5/weather?lat=${this.props.lat}&lon=${this.props.lon}&appid=${this.props.appid}`,
+        callApi(`https://api.openweathermap.org/data/2.5/weather?lat=${this.props.lat}&lon=${this.props.lon}&appid=${this.props.appid}`,
             {
                 headers: {
                     'Accept': 'application/json',
@@ -58,7 +58,7 @@ class SimpleReactWeather extends Component {
             .catch(res => { console.log(res) })
     }
     else if (this.props.city) {
-        callApi(`http://api.openweathermap.org/data/2.5/weather?q=${this.props.city}&appid=${this.props.appid}`,
+        callApi(`https://api.openweathermap.org/data/2.5/weather?q=${this.props.city}&appid=${this.props.appid}`,
             {
                 headers: {
                     'Accept': 'application/json',
