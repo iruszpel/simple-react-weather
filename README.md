@@ -30,9 +30,9 @@ class Example extends Component {
 }
 ```
 ## Props
-**unit: String**
+**unit: String**  
 C for Celcius, F for Fahrenheit  
-**lat/lon: Number**
+**lat/lon: Number**  
 Latitude and longitude, can be acquired from navigator.geolocation.getCurrentPosition()  
 **city: String**  
 **appid: String**  
