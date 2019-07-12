@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import SimpleReactWeather from 'simple-react-weather'
+import Weather from 'simple-react-weather'
 
 export default class App extends Component {
   constructor(props) {
@@ -31,7 +31,6 @@ export default class App extends Component {
     let cityName = e.target.value;
     clearTimeout(this.inputTimeout)
     this.inputTimeout = setTimeout(() => {
-      console.log(cityName)
       this.setState({
         city: cityName
       })
@@ -45,14 +44,14 @@ export default class App extends Component {
           <h2>Enter City Name</h2>
           <input onInput={this.handleCityInput} id="city" name="city" placeholder="E.g. New York" />
           {(this.state.city) &&
-            <div id="weatherCity"><SimpleReactWeather unit={this.state.tempUnits} city={this.state.city} appid={this.state.appId} /></div>
+            <div id="weatherCity"><Weather unit={this.state.tempUnits} city={this.state.city} appid={this.state.appId} /></div>
           }
         </div>
         <div className="boxes boxLocation">
           <h2>Based On Your Current Location</h2>
           <button onClick={this.getLocation} id="getLocation">Request Location</button>
           {(this.state.longitude && this.state.latitude) &&
-            <div id="weatherLocation"><SimpleReactWeather unit={this.state.tempUnits} lat={this.state.latitude} lon={this.state.longitude} appid={this.state.appId} /></div>
+            <div id="weatherLocation"><Weather unit={this.state.tempUnits} lat={this.state.latitude} lon={this.state.longitude} appid={this.state.appId} /></div>
           }
         </div>
 

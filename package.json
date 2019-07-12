@@ -2,6 +2,14 @@
   "name": "simple-react-weather",
   "version": "1.0.0",
   "description": "Very basic weather applet for React with icons",
+  "keywords": [
+    "weather",
+    "react",
+    "component",
+    "applet",
+    "owm",
+    "open weather map"
+  ],
   "author": "lopogo59",
   "license": "GNU GPLv3",
   "repository": "lopogo59/simple-react-weather",
@@ -24,7 +32,8 @@
   "peerDependencies": {
     "prop-types": "^15.5.4",
     "react": "^15.0.0 || ^16.0.0",
-    "react-dom": "^15.0.0 || ^16.0.0"
+    "react-dom": "^15.0.0 || ^16.0.0",
+    "react-icons-weather": "^1.0.5"
   },
   "devDependencies": {
     "@svgr/rollup": "^2.4.1",
