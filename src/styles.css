@@ -1,34 +1,36 @@
 .simpleReactWeather {
   color: #fff;
-  font-size: 4vh;
   font-weight: normal;
   font-style: normal;
   line-height: 1.0;
   text-align: center;
   text-transform: uppercase;
+  min-width: 110px;  
+  min-height:60px;
 }
-.simpleReactWeather-icon {
+
+.simpleReactWeatherIcon {
+  font-size: 160%;
+}
+
+.simpleReactWeatherTemp {
+  font-size: 150%;
+  color: #fff;
+  float: top-right;
+  font-weight: 300;
+  position: relative;
+  line-height: 100%;
+  margin:auto;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+}
+.simpleReactWeatherCityIcon {
   position: relative;
   float:left;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
 }
-
-.simpleReactWeather-temp {
-  font-size: 3.14vh;
-  color: #fff;
-  float: top-right;
-  font-weight: 300;
-  font-family: 'Lato', sans-serif;
+.simpleReactWeatherCity {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
   position: relative;
-  height:90%;
-  margin:auto;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
-}
-.simpleReactWeather-city {
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
-  position: absolute;
-  bottom:0;
-  font-size: 1.4vh;
+  font-size: 65%;
   font-weight: 300;
-  font-family: 'Lato', sans-serif;
 }
