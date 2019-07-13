@@ -1,6 +1,6 @@
 {
   "name": "simple-react-weather",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Very basic weather applet for React with icons",
   "keywords": [
     "weather",
