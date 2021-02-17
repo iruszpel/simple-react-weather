@@ -1,7 +1,7 @@
 # simple-react-weather
 
 Very basic weather applet for React with icons from [react-icons-weather](https://www.npmjs.com/package/react-icons-weather)  
-Demo available [here](https://lopogo59.github.io/simple-react-weather/)
+Demo available [here](https://iruszpel.github.io/simple-react-weather/)
 
 
 [![NPM](https://img.shields.io/npm/v/simple-react-weather.svg)](https://www.npmjs.com/package/simple-react-weather) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
@@ -42,4 +42,4 @@ You can also use all other custom props like onClick, id etc.
 
 ## License
 
-GNU GPLv3 © [lopogo59](https://github.com/lopogo59)
+GNU GPLv3 © [iruszpel](https://github.com/iruszpel)
