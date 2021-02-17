@@ -10,11 +10,11 @@
     "owm",
     "open weather map"
   ],
-  "author": "lopogo59",
+  "author": "iruszpel",
   "license": "GNU GPLv3",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lopogo59/simple-react-weather.git"
+    "url": "https://github.com/iruszpel/simple-react-weather.git"
   },
   "main": "dist/index.js",
   "module": "dist/index.es.js",
